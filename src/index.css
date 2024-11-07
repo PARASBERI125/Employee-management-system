@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  color:#fff;
+}
+body{
+  background-color: black;
+}
+#tasklist::-webkit-scrollbar{
+display: none;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+#admintasks::-webkit-scrollbar{
+  display: none;
+}
